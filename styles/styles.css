@@ -1,0 +1,118 @@
+:root {
+  --white: #fff;
+  --color: #FDCEB9;
+  --background: #4C4D74;
+}
+
+body {
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--white);
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: 7vw;
+  margin: 30px 30px 0px 30px;
+  text-shadow: 2px 2px var(--color);
+}
+
+h2 {
+  color: var(--color);
+  font-family: "Supermercado One", serif;
+  font-size: 5vw;
+  text-shadow: 1px 1px var(--white);
+}
+
+p {
+  color: var(--white);
+  font-family: "Supermercado One", serif;
+  font-size: 2vw;
+}
+
+.btn {
+  color: var(--color);
+  line-height: 1.5;
+  padding-bottom: 0;
+  text-shadow: 1px 1px var(--background);
+}
+
+.btn:hover {
+  color: var(--background);
+  text-shadow: 1px 1px var(--color);
+}
+
+.new-game-button {
+  font-family: "Luckiest Guy", sans-serif;
+  margin: 40px auto 0 auto;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--background);
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: 2rem;
+  padding: 8px 50px 0 10px;
+  text-shadow: 1px 1px var(--color);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: var(--white);
+  text-shadow: 1px 1px var(--background);
+}
+
+.nav-img {
+  border: 3px solid transparent;
+  border-radius: 16px 4px 16px 4px;
+  margin-right: 4px;
+  max-height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-img:hover {
+  border: 3px solid var(--color);
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.dice {
+  display: inline-block;
+  padding: 3%;
+  text-align: center;
+}
+
+.img1 {
+  width: 12vw;
+}
+
+.img2 {
+  width: 12vw;
+}
+
+.footer {
+  background-color: var(--color);
+  bottom: 0;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 100px;
+  padding-right: 10px;
+  position: fixed;
+  text-align: right;
+  text-shadow: 1px 1px var(--background);
+  width: 100%;
+}
+
+.footer-link {
+  color: var(--white);
+  text-shadow: 1px 1px var(--background);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--background);
+  text-shadow: 1px 1px var(--white);
+  transition: all 0.2s ease-in-out;
+}
